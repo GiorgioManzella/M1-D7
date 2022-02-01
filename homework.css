@@ -29,3 +29,7 @@ img {
 footer {
   text-align: end;
 }
+
+#links {
+  text-decoration-color: red;
+}
