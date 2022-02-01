@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(207, 203, 203);
+}
+
+.body2 {
+  background-color: grey;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+table {
+  height: 500px;
+  width: 80%;
+  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img {
+  height: 20%px;
+  width: 400px;
+}
+#button1 {
+  text-align: center;
+}
+
+footer {
+  text-align: end;
+}
