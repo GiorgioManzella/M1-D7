@@ -33,3 +33,6 @@ footer {
 #links {
   text-decoration-color: red;
 }
+.color {
+  text-decoration: green;
+}
