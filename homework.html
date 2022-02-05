@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <link rel="stylesheet" href="/M1-D7/homework.css">
+      <link rel="stylesheet" href="/homework.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,11 +23,11 @@
         <th>Glasses Bungie</th>
       </tr>
       <tr>
-        <th><img src="/M1-D7/images/shirt.jpg" alt="" /></a></th>
-        <th><img src="/M1-D7/images/hat.jpg" alt="" /></th>
-        <th><img src="/M1-D7/images/shoes.webp" alt="" /></th>
-        <th><img src="/M1-D7/images/ea47ee2c2220d819c0d531857dfeb197.jpg"alt=""/></th>
-        <th><img src="/M1-D7/images/glasses.jpg" alt="" /></th>
+        <th><img src="/images/shirt.jpg" alt="" /></a></th>
+        <th><img src="/images/hat.jpg" alt="" /></th>
+        <th><img src="/images/shoes.webp" alt="" /></th>
+        <th><img src="/images/ea47ee2c2220d819c0d531857dfeb197.jpg"alt=""/></th>
+        <th><img src="/images/glasses.jpg" alt="" /></th>
       </tr>
       <tr>
         <th>100% cotton shirt. Made in US.</th>
@@ -44,11 +44,11 @@
         <th>50$</th>
       </tr>
       <tr>
-        <th id="Links"><a href="https://www.amazon.co.uk/Numskull-Official-Destiny-Tricorn-Snapback/dp/B074K98PZV/ref=sr_1_5?crid=30ZFWCBL8LQB7&keywords=bungie+hat&qid=1643723248&sprefix=budgie+hat%2Caps%2C62&sr=8-5">Buy on Amazon</a></th>
-        <th id="Links"><a href="https://www.amazon.co.uk/XIAOBING-GLAISUNX-Bungie-Short-Sleeve/dp/B08PD7X96K/ref=sr_1_1?crid=3L0CRN6HHVD2Y&keywords=bungie+shirt&qid=1643723380&sprefix=budgie+shirt%2Caps%2C49&sr=8-1">Buy on Amazon</a></th>
-        <th id="Links"><a href="https://www.amazon.co.uk/KEEN-Targhee-Leather-Hiking-Bungee/dp/B01N350YIK/ref=sr_1_5?crid=1FXTB8SJYUFX1&keywords=bungee+shoes&qid=1643723472&sprefix=bungee+shoes%2Caps%2C63&sr=8-5">Buy on Amazon</a></th>
-        <th id="Links"><a href="https://www.amazon.co.uk/WAVE-Softer-Cashmere-Tassel-ORANGE/dp/B00RMYXG4O/ref=sr_1_11?crid=35WNJ8QV022UB&keywords=scarf&qid=1643723426&sprefix=scarf+%2Caps%2C77&sr=8-11">Buy on Amazon</a></th>
-        <th id="Links"><a href="https://www.amazon.co.uk/COOLOO-Blocking-Headache-Computer-Accessories%EF%BC%8CUnisex/dp/B085SVZ6K7/ref=sr_1_6?keywords=glasses+eye&qid=1643723512&sprefix=glasses+ey%2Caps%2C65&sr=8-6">Buy on Amazon</a></th>
+        <th id="Links" onclick="changeColor()" ><a href="https://www.amazon.co.uk/Numskull-Official-Destiny-Tricorn-Snapback/dp/B074K98PZV/ref=sr_1_5?crid=30ZFWCBL8LQB7&keywords=bungie+hat&qid=1643723248&sprefix=budgie+hat%2Caps%2C62&sr=8-5">Buy on Amazon</a></th>
+        <th id="Links" onclick="changeColor" ><a href="https://www.amazon.co.uk/XIAOBING-GLAISUNX-Bungie-Short-Sleeve/dp/B08PD7X96K/ref=sr_1_1?crid=3L0CRN6HHVD2Y&keywords=bungie+shirt&qid=1643723380&sprefix=budgie+shirt%2Caps%2C49&sr=8-1">Buy on Amazon</a></th>
+        <th id="Links" onclick="changeColor" ><a href="https://www.amazon.co.uk/KEEN-Targhee-Leather-Hiking-Bungee/dp/B01N350YIK/ref=sr_1_5?crid=1FXTB8SJYUFX1&keywords=bungee+shoes&qid=1643723472&sprefix=bungee+shoes%2Caps%2C63&sr=8-5">Buy on Amazon</a></th>
+        <th id="Links" onclick="changeColor" ><a href="https://www.amazon.co.uk/WAVE-Softer-Cashmere-Tassel-ORANGE/dp/B00RMYXG4O/ref=sr_1_11?crid=35WNJ8QV022UB&keywords=scarf&qid=1643723426&sprefix=scarf+%2Caps%2C77&sr=8-11">Buy on Amazon</a></th>
+        <th id="Links" onclick="changeColor" ><a href="https://www.amazon.co.uk/COOLOO-Blocking-Headache-Computer-Accessories%EF%BC%8CUnisex/dp/B085SVZ6K7/ref=sr_1_6?keywords=glasses+eye&qid=1643723512&sprefix=glasses+ey%2Caps%2C65&sr=8-6">Buy on Amazon</a></th>
       </tr>
       
       
@@ -76,7 +76,7 @@
         
         
         
-        const setColorLink = function setColorLink() {
+        const changeColor = function () {
             let linkColor = document.getElementById("Links").classList.add('Color')
         }   
 

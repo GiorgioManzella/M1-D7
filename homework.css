@@ -35,4 +35,8 @@ footer {
 }
 .color {
   text-decoration: green;
+  color: chocolate;
+}
+th {
+  height: 100px;
 }
